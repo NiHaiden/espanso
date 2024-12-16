@@ -16,7 +16,8 @@ BuildRequires:	wxGTK-devel
 BuildRequires:	openssl-devel
 BuildRequires:  mold
 BuildRequires:  cargo
-
+BuildRequires:  libxkbcommon-devel
+BuildRequires:  dbus-devel
 %global debug_package %{nil}
 %description
 A cross-platform Text Expander written in Rust. A text expander is a program
