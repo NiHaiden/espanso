@@ -15,6 +15,7 @@ BuildRequires:	pkgconfig(dbus-1)
 BuildRequires:	wxGTK-devel
 BuildRequires:	openssl-devel
 BuildRequires:  mold
+BuildRequires:  cargo
 
 %global debug_package %{nil}
 %description
